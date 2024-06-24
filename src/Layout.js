@@ -20,7 +20,7 @@ export default function Layout() {
           borderTop: {xs: "solid 2px #1e1e1e", md: "initial"},
           boxShadow: {xs: "0px -24px 24px rgba(0,0,0,.4)", md: "initial"},
         }}>
-        <Box padding={2} minHeight={"100dvh"} sx={{minHeight: {xs: "100%"}}}>
+        <Box padding={2} sx={{minHeight: {xs: "100%", md:'100dvh'}}}>
           <Menu />
         </Box>
       </Grid>
